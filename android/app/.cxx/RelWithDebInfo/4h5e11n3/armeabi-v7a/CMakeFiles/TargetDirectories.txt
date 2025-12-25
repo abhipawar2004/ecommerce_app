@@ -1,0 +1,2 @@
+/Users/razinsoft/development/Razinsoftprojects/ready-grocery-app/android/app/.cxx/RelWithDebInfo/4h5e11n3/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/razinsoft/development/Razinsoftprojects/ready-grocery-app/android/app/.cxx/RelWithDebInfo/4h5e11n3/armeabi-v7a/CMakeFiles/rebuild_cache.dir

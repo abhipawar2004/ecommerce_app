@@ -1,0 +1,2 @@
+/Users/razinsoft/development/Razinsoftprojects/ready-ecommerce-customer-1/android/app/.cxx/Debug/6w6o284v/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/razinsoft/development/Razinsoftprojects/ready-ecommerce-customer-1/android/app/.cxx/Debug/6w6o284v/armeabi-v7a/CMakeFiles/rebuild_cache.dir

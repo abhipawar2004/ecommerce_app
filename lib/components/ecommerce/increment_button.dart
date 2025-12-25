@@ -1,0 +1,44 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:ready_grocery/config/theme.dart';
+
+class IncrementButton extends StatelessWidget {
+  final Color? buttonColor;
+  final Color? iconColor;
+  final void Function()? onTap;
+  const IncrementButton({
+    super.key,
+    this.buttonColor,
+    this.iconColor,
+    this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: buttonColor ?? colors(context).primaryColor?.withOpacity(0.1),
+      borderRadius: BorderRadius.circular(4.r),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(8.r),
+        onTap: onTap,
+        child: Container(
+          height: 32.h,
+          width: 32.w,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(8.r),
+            border: Border.all(
+                color: colors(context).primaryColor!.withValues(alpha: 0.4)),
+          ),
+          child: Center(
+            child: SvgPicture.asset(
+              "assets/svg/shopping-cart-plus.svg",
+              color: iconColor ?? colors(context).primaryColor,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
