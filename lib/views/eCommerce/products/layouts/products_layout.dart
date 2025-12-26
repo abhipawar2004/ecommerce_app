@@ -87,14 +87,12 @@ class _EcommerceProductsLayoutState
   }
 
   void _scrollListener() {
-    debugPrint("listener");
     if (scrollController.position.pixels ==
         scrollController.position.maxScrollExtent) {
       setState(() {
         isLastPosition = true;
         scrollPosition = scrollController.position.pixels;
       });
-      debugPrint('Call fetch more products');
       _fetchMoreProducts();
     }
   }

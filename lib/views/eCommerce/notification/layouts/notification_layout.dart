@@ -32,16 +32,16 @@ class NotificationLayout extends StatelessWidget {
 final List<NotificationModel> notifications = [
   NotificationModel(
     id: 1,
-    title: "Welcome to Ready Grocery. Get start explore services",
+    title: "Welcome to MCart. Get start explore services",
     message: "Get started",
     type: "info",
     url: "",
     createdAt: "18 Mar, 2024",
-    isRead: true,
+    isRead: false,
   ),
   NotificationModel(
     id: 2,
-    title: "Welcome to Ready Grocery",
+    title: "Welcome to MCart",
     message: "Get started explore services",
     type: "info",
     url: "",
@@ -50,7 +50,7 @@ final List<NotificationModel> notifications = [
   ),
   NotificationModel(
     id: 3,
-    title: "Welcome to Ready Grocery",
+    title: "Welcome to MCart",
     message: "Get started",
     type: "info",
     url: "",
@@ -59,6 +59,15 @@ final List<NotificationModel> notifications = [
   ),
   NotificationModel(
     id: 4,
+    title: "Welcome to MCart",
+    message: "Get started",
+    type: "info",
+    url: "",
+    createdAt: "18 Mar, 2024",
+    isRead: true,
+  ),
+  NotificationModel(
+    id: 5,
     title: "Welcome to Ready Grocery",
     message: "Get started",
     type: "info",
@@ -66,13 +75,4 @@ final List<NotificationModel> notifications = [
     createdAt: "18 Mar, 2024",
     isRead: true,
   ),
-  // NotificationModel(
-  //   id: 5,
-  //   title: "Welcome to Ready Grocery",
-  //   message: "Get started",
-  //   type: "info",
-  //   url: "",
-  //   createdAt: "18 Mar, 2024",
-  //   isRead: true,
-  // ),
 ];

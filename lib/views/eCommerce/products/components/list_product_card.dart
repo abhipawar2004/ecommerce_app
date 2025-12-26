@@ -170,7 +170,8 @@ class ListProductCard extends StatelessWidget {
           children: [
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
               children: [
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -193,7 +194,7 @@ class ListProductCard extends StatelessWidget {
                       )
                   ],
                 ),
-                Gap(8.h),
+                Gap(4.h),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -234,7 +235,7 @@ class ListProductCard extends StatelessWidget {
                     )
                   ],
                 ),
-                Gap(10.h),
+                Gap(6.h),
                 Consumer(builder: (context, ref, _) {
                   return Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
