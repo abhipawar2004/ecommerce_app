@@ -296,28 +296,28 @@ class _EcommerceMoreLayoutState extends ConsumerState<EcommerceMoreLayout> {
                                 },
                               ),
                             ),
-                            Padding(
-                              padding: EdgeInsets.only(top: 8.h),
-                              child: _buildProfileItem(
-                                context: context,
-                                icon: Assets.svg.translate,
-                                text: S.of(context).language,
-                                onTap: () {
-                                  context.nav.pushNamed(Routes.languageView);
-                                },
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsets.only(top: 8.h),
-                              child: _buildProfileItem(
-                                context: context,
-                                icon: Assets.svg.currency,
-                                text: S.of(context).currency,
-                                onTap: () {
-                                  context.nav.pushNamed(Routes.currencyView);
-                                },
-                              ),
-                            ),
+                            // Padding(
+                            //   padding: EdgeInsets.only(top: 8.h),
+                            //   child: _buildProfileItem(
+                            //     context: context,
+                            //     icon: Assets.svg.translate,
+                            //     text: S.of(context).language,
+                            //     onTap: () {
+                            //       context.nav.pushNamed(Routes.languageView);
+                            //     },
+                            //   ),
+                            // ),
+                            // Padding(
+                            //   padding: EdgeInsets.only(top: 8.h),
+                            //   child: _buildProfileItem(
+                            //     context: context,
+                            //     icon: Assets.svg.currency,
+                            //     text: S.of(context).currency,
+                            //     onTap: () {
+                            //       context.nav.pushNamed(Routes.currencyView);
+                            //     },
+                            //   ),
+                            // ),
                             Visibility(
                               visible: ref
                                   .read(hiveServiceProvider)
