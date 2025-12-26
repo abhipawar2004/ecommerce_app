@@ -88,7 +88,7 @@ class AppBottomNavbar extends ConsumerWidget {
       child: Container(
         padding: EdgeInsets.all(16.r),
         decoration: BoxDecoration(
-            color: isSelected ? Color(0xFF51AF5B) : null,
+            color: isSelected ? Color.fromARGB(255, 125, 54, 218) : null,
             shape: BoxShape.circle),
         child: Center(
           child: SvgPicture.asset(

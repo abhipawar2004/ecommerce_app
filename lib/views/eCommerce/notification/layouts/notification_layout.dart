@@ -66,13 +66,13 @@ final List<NotificationModel> notifications = [
     createdAt: "18 Mar, 2024",
     isRead: true,
   ),
-  NotificationModel(
-    id: 5,
-    title: "Welcome to Ready Grocery",
-    message: "Get started",
-    type: "info",
-    url: "",
-    createdAt: "18 Mar, 2024",
-    isRead: true,
-  ),
+  // NotificationModel(
+  //   id: 5,
+  //   title: "Welcome to Ready Grocery",
+  //   message: "Get started",
+  //   type: "info",
+  //   url: "",
+  //   createdAt: "18 Mar, 2024",
+  //   isRead: true,
+  // ),
 ];

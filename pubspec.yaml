@@ -60,6 +60,7 @@ dependencies:
   flutter_inner_shadow: ^0.0.1
   infinite_scroll_pagination: ^5.1.1
   photo_view: ^0.15.0
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -77,6 +78,16 @@ dev_dependencies:
 #       url: https://github.com/holzgeist/flutter_inappwebview
 #       path: flutter_inappwebview_android
 #       ref: d89b1d32638b49dfc58c4b7c84153be0c269d057
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/png/favicon.png"
+  adaptive_icon_background: "#FFFFFF"   # Android only (optional)
+ 
+
 
 flutter:
   uses-material-design: true

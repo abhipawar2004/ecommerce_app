@@ -87,14 +87,14 @@ class EcommerceAppColor {
   static const Color gray = Color(0xFF617986);
   static const Color gray50 = Color(0xFFF6F7F9);
   static const Color lightGray = Color(0xFF979899);
-  static Color primary = const Color(0xFF51AF5B);
-  static const Color carrotOrange = Color(0xFFFF8322);
+  static Color primary = Color.fromARGB(255, 74, 47, 121);
+  static const Color carrotOrange = Color.fromARGB(255, 210, 82, 13);
   static const Color blueChalk = Color(0xFFF3E9FF);
   static const Color red = Color(0xFFFF2424);
-  static const Color green = Color(0xFF1EDD31);
+  static const Color green =Color.fromARGB(255, 74, 47, 121);
   static const Color blue = Color(0xFF2196F3);
   static const Color orange = Color(0xFFFFC107);
-  static const Color primaryDark = Color(0xFF388140);
+  static const Color primaryDark =  Color.fromARGB(255, 74, 47, 121);
   static const Color lightBg = Color(0xFFF0F8FE);
 }
 
@@ -108,7 +108,7 @@ class FoodAppColor {
   static const Color carrotOrange = Color(0xFFFF8322);
   static const Color blueChalk = Color(0xFFF3E9FF);
   static const Color red = Color(0xFFFF2424);
-  static const Color green = Color(0xFF1EDD31);
+  static const Color green =Color.fromARGB(255, 74, 47, 121);
 }
 
 class GroceryAppColor {
@@ -121,7 +121,7 @@ class GroceryAppColor {
   static const Color carrotOrange = Color(0xFFFF8322);
   static const Color blueChalk = Color(0xFFF3E9FF);
   static const Color red = Color(0xFFFF2424);
-  static const Color green = Color(0xFF51AF5B);
+  static const Color green = Color.fromARGB(255, 74, 47, 121);
 }
 
 class PharmacyAppColor {
@@ -134,7 +134,7 @@ class PharmacyAppColor {
   static const Color carrotOrange = Color(0xFFFF8322);
   static const Color blueChalk = Color(0xFFF3E9FF);
   static const Color red = Color(0xFFFF2424);
-  static const Color green = Color(0xFF1EDD31);
+  static const Color green = Color.fromARGB(255, 74, 47, 121);
 }
 
 class AppColor {

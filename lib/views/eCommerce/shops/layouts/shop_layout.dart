@@ -239,7 +239,7 @@ class _EcommerceShopLayoutState extends ConsumerState<EcommerceShopLayout> {
   Widget _buildAppBarWidget(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 10.w).copyWith(bottom: 5.h),
-      color: Theme.of(context).scaffoldBackgroundColor,
+      color:  Color.fromARGB(255, 70, 10, 148),
       child: Row(
         children: [
           IconButton(

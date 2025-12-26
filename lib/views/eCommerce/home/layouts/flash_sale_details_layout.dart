@@ -31,8 +31,7 @@ class _FlashSaleDetailsLayoutState
       ),
       body: ref.watch(flashSaleDetailsControllerProvider)
           ? Center(child: CircularProgressIndicator())
-          : ref
-                  .watch(flashSaleDetailsControllerProvider.notifier)
+          : ref.watch(flashSaleDetailsControllerProvider.notifier)
                   .products
                   .isEmpty
               ? Center(child: Text("No Product Available"))
@@ -69,7 +68,7 @@ class _FlashSaleDetailsLayoutState
                             ),
                           );
                         },
-                      )
+                      ),
                     ],
                   ),
                 ),

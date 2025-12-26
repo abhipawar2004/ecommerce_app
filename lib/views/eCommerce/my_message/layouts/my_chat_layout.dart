@@ -102,7 +102,7 @@ class _MyChatLayoutState extends ConsumerState<MyChatLayout> {
                       style: AppTextStyle(context).bodyText.copyWith(
                           fontSize: 12.sp,
                           color: widget.shop.lastOnline == true
-                              ? Colors.green
+                              ? Color.fromARGB(255, 70, 10, 148)
                               : Colors.grey)),
                 ],
               ),

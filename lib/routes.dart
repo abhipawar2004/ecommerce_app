@@ -47,12 +47,10 @@ import 'package:ready_grocery/views/grocery/dashboard/dashboard_view.dart';
 import 'package:ready_grocery/views/grocery/home/home_view.dart';
 import 'package:ready_grocery/views/pharmacy/dashboard/dashboard_view.dart';
 import 'package:ready_grocery/views/pharmacy/home/home_view.dart';
-
 import 'views/common/currency/currency_view.dart';
 
 class Routes {
   Routes._();
-
   // common routes name
   static const String splash = '/';
   static const String onbarding = '/onboarding';
@@ -154,7 +152,6 @@ class Routes {
   static String getChatViewRouteName(String service) {
     return '$service$myChatView';
   }
-
   static String getOrderDetailsViewRouteName(String service) {
     return '$service$orderDetailsView';
   }
@@ -720,7 +717,7 @@ Route generatedRoutes(RouteSettings settings) {
   } else {
     final Widget view = handleCommonRoutes(settings.name, settings);
     return go(view, settings);
-  }
+  } 
 }
 
 PageTransition<dynamic> go(Widget view, RouteSettings settings) {
