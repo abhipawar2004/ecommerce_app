@@ -34,10 +34,22 @@ final masterControllerProvider = StateNotifierProvider<MasterController, bool>(
     (ref) => MasterController(ref));
 
 class CurrencyStateNotifier extends StateNotifier<Currency> {
-  CurrencyStateNotifier() : super(Currency.empty());
+  CurrencyStateNotifier() : super(Currency(
+    name: 'Indian Rupee',
+    symbol: '₹',
+    position: 'left',
+    rate: 1.0,
+  ));
 
   void updateCurrency(Currency currency) {
-    state = currency;
+    // Currency is now static - Indian Rupee only
+    // Ignore any updates to keep INR as the only currency
+    state = Currency(
+      name: 'Indian Rupee',
+      symbol: '₹',
+      position: 'left',
+      rate: 1.0,
+    );
   }
 }
 

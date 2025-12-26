@@ -514,7 +514,7 @@ class _EcommerceMoreLayoutState extends ConsumerState<EcommerceMoreLayout> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
         gradient: LinearGradient(
-          colors: [EcommerceAppColor.primary, const Color(0xFFB822FF)],
+          colors: [EcommerceAppColor.primaryDark, EcommerceAppColor.primaryDark],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           transform: const GradientRotation(263 * (3.14159265359 / 30)),
